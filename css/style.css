@@ -54,6 +54,7 @@ body{
 a{
   color: #000;
   text-decoration: none;
+  transition: color 0.1s linear;
 }
 a:hover{
   color: #ff0000;
@@ -100,6 +101,8 @@ a:hover{
   border: 1px solid rgba(0, 0, 0, 0.85);
   box-sizing: border-box;
   border-radius: 45px;
+  transition: color 0.3s linear;
+  transition: background-color 0.5s linear;
 }
 .header__btn1:hover{
   color: #fff;
@@ -113,6 +116,8 @@ a:hover{
   border: 1px solid rgba(0, 0, 0, 0.85);
   box-sizing: border-box;
   border-radius: 45px;
+  transition: color 0.3s linear;
+  transition: background-color 0.5s linear;
 }
 .header__btn2:hover{
   color: #fff;
